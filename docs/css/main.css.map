@@ -3,17 +3,17 @@
 	"file": "main.css",
 	"sourceRoot": "/Users/zajan/Desktop/My/kimkshansy-blog",
 	"sources": [
-		"themes/newsroom/assets/scss/main.scss",
-		"themes/newsroom/assets/scss/_fonts.scss",
-		"themes/newsroom/assets/scss/_variables.scss",
-		"themes/newsroom/assets/scss/_mixins.scss",
-		"themes/newsroom/assets/scss/_animate.scss",
-		"themes/newsroom/assets/scss/_base.scss",
-		"themes/newsroom/assets/scss/_components.scss",
-		"themes/newsroom/assets/scss/_nav.scss",
-		"themes/newsroom/assets/scss/_posts.scss",
-		"themes/newsroom/assets/scss/_utils.scss",
-		"themes/newsroom/assets/scss/_syntax.scss"
+		"assets/scss/main.scss",
+		"assets/scss/_fonts.scss",
+		"assets/scss/_variables.scss",
+		"assets/scss/_mixins.scss",
+		"assets/scss/_animate.scss",
+		"assets/scss/_base.scss",
+		"assets/scss/_components.scss",
+		"assets/scss/_nav.scss",
+		"assets/scss/_posts.scss",
+		"assets/scss/_utils.scss",
+		"assets/scss/_syntax.scss"
 	],
 	"sourcesContent": [
 		"// text strings\n$copy-icon-b4: 'Share Story';\n$copy-icon-aft: 'Link Copied';\n\n// urls\n$font-path: 'https://kimkshansy.github.io/blog/fonts';\n$copy-icon-path: 'https://kimkshansy.github.io/blog/images/icons/copy.svg';\n$prev-icon-path: 'https://kimkshansy.github.io/blog/images/icons/previous.svg';\n$next-icon-path: 'https://kimkshansy.github.io/blog/images/icons/next.svg';\n$never-icon-path: 'https://kimkshansy.github.io/blog/images/sitting.svg';\n$day-icon-path: 'https://kimkshansy.github.io/blog/images/sun.svg';\n$night-icon-path: 'https://kimkshansy.github.io/blog/images/crescent.svg';\n\n@import\n'fonts',\n'variables',\n'mixins',\n'animate',\n'base',\n'components',\n'nav',\n'posts',\n'utils',\n'syntax';\n",
