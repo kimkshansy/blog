@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on KimksHansy&#39;s Story</title>
+    <link>https://kimkshansy.github.io/blog/categories/</link>
+    <description>Recent content in Categories on KimksHansy&#39;s Story</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2020, Weru and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 04 Feb 2020 15:20:47 +0900</lastBuildDate>
+    
+	<atom:link href="https://kimkshansy.github.io/blog/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>해외여행</title>
+      <link>https://kimkshansy.github.io/blog/categories/%ED%95%B4%EC%99%B8%EC%97%AC%ED%96%89/</link>
+      <pubDate>Tue, 04 Feb 2020 15:20:47 +0900</pubDate>
+      
+      <guid>https://kimkshansy.github.io/blog/categories/%ED%95%B4%EC%99%B8%EC%97%AC%ED%96%89/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

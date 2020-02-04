@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>KimksHansy&#39;s Story</title>
+    <link>https://kimkshansy.github.io/blog/</link>
+    <description>Recent content on KimksHansy&#39;s Story</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2020, Weru and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Tue, 04 Feb 2020 15:20:47 +0900</lastBuildDate>
+    
+	<atom:link href="https://kimkshansy.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>`[해외여행][일본]` 오사카 여행을 떠나보자</title>
+      <link>https://kimkshansy.github.io/blog/posts/kobe-japan/</link>
+      <pubDate>Tue, 04 Feb 2020 15:20:47 +0900</pubDate>
+      
+      <guid>https://kimkshansy.github.io/blog/posts/kobe-japan/</guid>
+      <description>우리 첫번째 해외여행 기록, 일본으로 떠나보자. 때는 2019년 4월 어느날&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>About us</title>
+      <link>https://kimkshansy.github.io/blog/about/</link>
+      <pubDate>Mon, 27 Jan 2020 17:52:23 +0900</pubDate>
+      
+      <guid>https://kimkshansy.github.io/blog/about/</guid>
+      <description>Kimks &amp;amp; Hansy 2018.05.15 ~ ing</description>
+    </item>
+    
+  </channel>
+</rss>
