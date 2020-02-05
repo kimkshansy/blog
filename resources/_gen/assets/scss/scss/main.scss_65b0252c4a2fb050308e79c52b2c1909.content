@@ -3,42 +3,42 @@
   font-family: 'Metropolis';
   font-style: normal;
   font-weight: 400;
-  src: local("Metropolis Regular"), local("Metropolis-Regular"), url("https://kimkshansy.github.io/blog/fonts/Metropolis-Regular.woff2") format("woff2"), url("https://kimkshansy.github.io/blog/fonts/Metropolis-Regular.woff") format("woff");
+  src: local("Metropolis Regular"), local("Metropolis-Regular"), url("http://localhost:1313/blog/fonts/Metropolis-Regular.woff2") format("woff2"), url("http://localhost:1313/blog/fonts/Metropolis-Regular.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Metropolis';
   font-style: normal;
   font-weight: 300;
-  src: local("Metropolis Light"), local("Metropolis-Light"), url("https://kimkshansy.github.io/blog/fonts/Metropolis-Light.woff2") format("woff2"), url("https://kimkshansy.github.io/blog/fonts/Metropolis-Light.woff") format("woff");
+  src: local("Metropolis Light"), local("Metropolis-Light"), url("http://localhost:1313/blog/fonts/Metropolis-Light.woff2") format("woff2"), url("http://localhost:1313/blog/fonts/Metropolis-Light.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Metropolis';
   font-style: italic;
   font-weight: 300;
-  src: local("Metropolis Light Italic"), local("Metropolis-LightItalic"), url("https://kimkshansy.github.io/blog/fonts/Metropolis-LightItalic.woff2") format("woff2"), url("https://kimkshansy.github.io/blog/fonts/Metropolis-LightItalic.woff") format("woff");
+  src: local("Metropolis Light Italic"), local("Metropolis-LightItalic"), url("http://localhost:1313/blog/fonts/Metropolis-LightItalic.woff2") format("woff2"), url("http://localhost:1313/blog/fonts/Metropolis-LightItalic.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Metropolis';
   font-style: normal;
   font-weight: 500;
-  src: local("Metropolis Medium"), local("Metropolis-Medium"), url("https://kimkshansy.github.io/blog/fonts/Metropolis-Medium.woff2") format("woff2"), url("https://kimkshansy.github.io/blog/fonts/Metropolis-Medium.woff") format("woff");
+  src: local("Metropolis Medium"), local("Metropolis-Medium"), url("http://localhost:1313/blog/fonts/Metropolis-Medium.woff2") format("woff2"), url("http://localhost:1313/blog/fonts/Metropolis-Medium.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Metropolis';
   font-style: italic;
   font-weight: 500;
-  src: local("Metropolis Medium Italic"), local("Metropolis-MediumItalic"), url("https://kimkshansy.github.io/blog/fonts/Metropolis-MediumItalic.woff2") format("woff2"), url("https://kimkshansy.github.io/blog/fonts/Metropolis-MediumItalic.woff") format("woff");
+  src: local("Metropolis Medium Italic"), local("Metropolis-MediumItalic"), url("http://localhost:1313/blog/fonts/Metropolis-MediumItalic.woff2") format("woff2"), url("http://localhost:1313/blog/fonts/Metropolis-MediumItalic.woff") format("woff");
 }
 
 @font-face {
   font-family: 'Cookie';
   font-style: normal;
   font-weight: 400;
-  src: local("Cookie-Regular"), url("https://kimkshansy.github.io/blog/fonts/cookie-v10-latin-regular.woff2") format("woff2"), url("https://kimkshansy.github.io/blog/fonts/cookie-v10-latin-regular.woff") format("woff");
+  src: local("Cookie-Regular"), url("http://localhost:1313/blog/fonts/cookie-v10-latin-regular.woff2") format("woff2"), url("http://localhost:1313/blog/fonts/cookie-v10-latin-regular.woff") format("woff");
 }
 
 :root {
@@ -447,7 +447,7 @@ aside h3 {
   position: relative;
   width: 1.5rem;
   height: 1.5rem;
-  background-image: url(https://kimkshansy.github.io/blog/images/icons/copy.svg);
+  background-image: url(http://localhost:1313/blog/images/icons/copy.svg);
   background-size: 100%;
   cursor: pointer;
 }
@@ -714,21 +714,21 @@ aside h3 {
 }
 
 .post p, .post h1, .post h2, .post h3, .post h4, .post h5, .post h6, .post blockquote, .post ol, .post ul, .post hr {
-  max-width: 840px !important;
+  max-width: 948px !important;
   margin-left: auto;
   margin-right: auto;
 }
 
 @media screen and (min-width: 1025px) {
   .post img:not(.icon) {
-    width: 100vw;
+    width: 100%;
     max-width: 1024px;
   }
 }
 
 .post h2, .post h3, .post h4 {
   margin: 0.5rem auto;
-  text-align: left;
+  text-align: center;
   padding: 5px 0 0 0;
 }
 
@@ -736,6 +736,7 @@ aside h3 {
   padding-bottom: 0.5rem;
   padding-top: 0.5rem;
   font-size: 1.05rem;
+  text-align: center;
 }
 
 .posts {
@@ -771,6 +772,7 @@ aside h3 {
 .post_inner img:not(.icon) {
   margin-bottom: 2rem;
   box-shadow: 0 1.5rem 1rem -1rem rgba(0, 0, 0, 0.25);
+  width: 80%;
 }
 
 .post_inner img:not(.icon) ~ h1, .post_inner img:not(.icon) ~ h2, .post_inner img:not(.icon) ~ h3, .post_inner img:not(.icon) ~ h4 {
@@ -909,7 +911,7 @@ aside h3 {
 
 .post_next::after {
   content: "";
-  background-image: url("https://kimkshansy.github.io/blog/images/icons/next.svg");
+  background-image: url("http://localhost:1313/blog/images/icons/next.svg");
   background-repeat: repeat no-repeat;
   background-size: 0.8rem;
   background-position: center right;
@@ -946,11 +948,11 @@ aside h3 {
 }
 
 .pager_prev {
-  background-image: url(https://kimkshansy.github.io/blog/images/icons/previous.svg);
+  background-image: url(http://localhost:1313/blog/images/icons/previous.svg);
 }
 
 .pager_next {
-  background-image: url(https://kimkshansy.github.io/blog/images/icons/next.svg);
+  background-image: url(http://localhost:1313/blog/images/icons/next.svg);
 }
 
 .pager span {
@@ -1081,7 +1083,7 @@ aside h3 {
 
 .never {
   min-height: 60vh;
-  background: url("https://kimkshansy.github.io/blog/images/sitting.svg");
+  background: url("http://localhost:1313/blog/images/sitting.svg");
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: contain;

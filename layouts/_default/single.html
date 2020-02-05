@@ -14,10 +14,10 @@
         {{ end }}
       </div>
       <div class = 'post_body'>
-        <div class = 'post_inner'>
         {{ with .Params.image }}
           <img src = '{{ absURL (printf "images/%s" .) }}' alt = '{{ . }}' class = 'post_thumbnail'>
         {{ end }}
+        <div class = 'post_inner'>
           {{ .Content }}
         </div>
         <div class ='post_extra mb-2'>

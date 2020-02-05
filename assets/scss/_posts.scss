@@ -2,25 +2,26 @@
   margin:0 auto;
   width:100%;
   p, h1, h2, h3, h4, h5, h6, blockquote, ol, ul, hr {
-    max-width: 840px !important;
+    max-width: 948px !important;
     margin-left: auto;
     margin-right: auto;
   }
   img:not(.icon) {
     @media screen and (min-width: 1025px) {
-      width: 100vw;
+      width: 100%;
       max-width: 1024px;
     }
   }
   h2,h3,h4{
     margin: 0.5rem auto;
-    text-align:left;
+    text-align:center;
     padding:5px 0 0 0;
   }
   p{
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
     font-size: 1.05rem;
+    text-align: center;
   }
   &s{
     display:flex;
@@ -52,6 +53,7 @@
     img:not(.icon) {
       margin-bottom: 2rem;
       box-shadow: 0 1.5rem 1rem -1rem rgba(0,0,0,0.25);
+      width: 80%;
       ~ h1, ~ h2, ~ h3, ~ h4 {
         margin-top: 0;
         padding-top: 0;
